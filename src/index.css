@@ -776,19 +776,22 @@ img {
   }
 
   .nl-form {
-    flex-direction: column;
-    background: transparent;
-    padding: 0;
-    gap: 0.8rem;
+    display: block !important;
+    background: transparent !important;
+    padding: 0 !important;
     max-width: 100%;
   }
   .nl-input {
+    display: block;
     width: 100%;
     padding: 1rem 1.5rem;
     border-radius: var(--radius-pill);
     background-color: var(--clr-white);
+    margin-bottom: 1rem;
+    border: 1px solid var(--clr-border);
   }
   .nl-form .btn {
+    display: block;
     width: 100%;
     padding: 1rem;
   }
