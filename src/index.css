@@ -774,4 +774,30 @@ img {
     align-items: flex-start;
     gap: 1rem;
   }
+
+  .nl-form {
+    flex-direction: column;
+    background: transparent;
+    padding: 0;
+    gap: 0.8rem;
+    max-width: 100%;
+  }
+  .nl-input {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: var(--radius-pill);
+    background-color: var(--clr-white);
+  }
+  .nl-form .btn {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .footer-links {
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  .footer-links a {
+    font-size: 0.9rem;
+  }
 }
