@@ -1,4 +1,6 @@
 import React from 'react';
+import img1 from '../assets/img/DSC01326.JPG';
+import img2 from '../assets/img/DSC01339.JPG';
 
 const Hero = () => {
   return (
@@ -33,7 +35,7 @@ const Hero = () => {
         <div className="hero-images">
           <div className="hero-card-main">
             <img 
-              src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&auto=format&fit=crop" 
+              src={img1} 
               alt="Anak-anak yatim bahagia" 
               className="hero-card-img" 
             />
@@ -55,7 +57,7 @@ const Hero = () => {
 
           <div className="hero-card-overlap">
             <img 
-              src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop" 
+              src={img2} 
               alt="Senyum anak" 
             />
             <span className="badge-text">PENDIDIKAN</span>

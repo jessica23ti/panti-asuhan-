@@ -1,4 +1,10 @@
 import React from 'react';
+import img1 from '../assets/img/DSC01326.JPG';
+import img2 from '../assets/img/DSC01339.JPG';
+import img3 from '../assets/img/DSC01367.JPG';
+import img4 from '../assets/img/DSC01406.JPG';
+import img5 from '../assets/img/DSC01417.JPG';
+import img6 from '../assets/img/DSC01447.JPG';
 
 const ProgramCard = ({ title, category, image, raised, goal, percent }) => {
   return (
@@ -25,37 +31,37 @@ const Programs = () => {
     {
       title: "Paket Makanan Bergizi",
       category: "SOSIAL",
-      image: "https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=600&auto=format&fit=crop",
+      image: img1,
       raised: "12.400.000", goal: "20.000.000", percent: "62%"
     },
     {
       title: "Beasiswa Pendidikan Yatim",
       category: "PENDIDIKAN",
-      image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=600&auto=format&fit=crop",
+      image: img2,
       raised: "8.500.000", goal: "15.000.000", percent: "56%"
     },
     {
       title: "Fasilitas Air Bersih & Sanitasi",
       category: "KESEHATAN",
-      image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=600&auto=format&fit=crop",
+      image: img3,
       raised: "4.200.000", goal: "10.000.000", percent: "42%"
     },
     {
       title: "Bantuan Medis & Kesehatan",
       category: "MEDIS",
-      image: "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=600&auto=format&fit=crop",
+      image: img4,
       raised: "25.000.000", goal: "50.000.000", percent: "50%"
     },
     {
-      title: "Renovasi Asrama Panti",
+      title: "Renovasi Asrama Panti Asuhan Amanah",
       category: "INFRASTRUKTUR",
-      image: "https://images.unsplash.com/photo-1518398046578-8cca57782e17?q=80&w=600&auto=format&fit=crop",
+      image: img5,
       raised: "18.300.000", goal: "30.000.000", percent: "61%"
     },
     {
       title: "Dana Darurat & Ziswaf",
       category: "BANTUAN UMUM",
-      image: "https://images.unsplash.com/photo-1532629345422-7515f3d16bb0?q=80&w=600&auto=format&fit=crop",
+      image: img6,
       raised: "55.000.000", goal: "100.000.000", percent: "55%"
     }
   ];

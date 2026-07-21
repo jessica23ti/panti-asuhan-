@@ -1,25 +1,29 @@
 import React from 'react';
+import img1 from '../assets/img/DSC01406.JPG';
+import img2 from '../assets/img/DSC01417.JPG';
+import img3 from '../assets/img/DSC01326.JPG';
+import img4 from '../assets/img/DSC01339.JPG';
 
 const Articles = () => {
   const articles = [
     {
       title: "10 Cara Membantu Anak Yatim di Sekitar Kita",
-      image: "https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=400&auto=format&fit=crop",
+      image: img1,
       date: "12 Okt 2026"
     },
     {
       title: "Pentingnya Pendidikan Dasar Bagi Masa Depan Anak Dhuafa",
-      image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=400&auto=format&fit=crop",
+      image: img2,
       date: "05 Okt 2026"
     },
     {
-      title: "Kisah Harapan: Bagaimana Beasiswa Mengubah Hidup Fulan",
-      image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=400&auto=format&fit=crop",
+      title: "Kisah Harapan Anak Asuh Amanah: Bagaimana Beasiswa Mengubah Hidup Fulan",
+      image: img3,
       date: "28 Sep 2026"
     },
     {
       title: "Mengapa Donasi Rutin Bulanan Sangat Berarti?",
-      image: "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=400&auto=format&fit=crop",
+      image: img4,
       date: "15 Sep 2026"
     }
   ];

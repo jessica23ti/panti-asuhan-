@@ -18,7 +18,7 @@ const FAQ = () => {
     },
     {
       question: "Bisakah saya berkunjung langsung ke panti?",
-      answer: "Tentu saja! Kami sangat terbuka jika Anda ingin bersilaturahmi, melihat kondisi asrama, dan bermain bersama anak-anak panti secara langsung."
+      answer: "Tentu saja! Kami sangat terbuka jika Anda ingin bersilaturahmi, melihat kondisi asrama, dan bermain bersama anak-anak Panti Asuhan Amanah secara langsung."
     }
   ];
 

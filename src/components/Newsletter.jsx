@@ -6,7 +6,7 @@ const Newsletter = () => {
       <div className="container">
         <div className="nl-text">
           <h2>Daftar Buletin Kami</h2>
-          <p>Dapatkan info terbaru mengenai kegiatan dan laporan penyaluran donasi panti.</p>
+          <p>Dapatkan info terbaru mengenai kegiatan dan laporan penyaluran donasi Panti Asuhan Amanah.</p>
         </div>
         <div className="nl-form">
           <input type="email" placeholder="Masukkan email Anda" className="nl-input" />

@@ -1,4 +1,5 @@
 import React from 'react';
+import img1 from '../assets/img/DSC01367.JPG';
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
         <div className="about-grid">
           <div className="about-image-wrapper reveal-left active">
             <img 
-              src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1000&auto=format&fit=crop" 
+              src={img1} 
               alt="Anak-anak belajar bersama" 
               className="about-img main-img" 
             />
@@ -22,7 +23,7 @@ const About = () => {
               <h2 className="section-title">Membangun Harapan, <br/>Mewujudkan Cita-cita</h2>
             </div>
             <p className="about-text">
-              Kami berkomitmen untuk memberikan perlindungan, pengasuhan, dan pendidikan yang layak bagi anak-anak yatim dan dhuafa. Berdiri sejak tahun 2008, ribuan anak telah merasakan kehangatan keluarga dan kesempatan untuk mengejar impian mereka.
+              Di Panti Asuhan Amanah, kami berkomitmen untuk memberikan perlindungan, pengasuhan, dan pendidikan yang layak bagi anak-anak yatim dan dhuafa. Berdiri sejak tahun 2008, ribuan anak telah merasakan kehangatan keluarga dan kesempatan untuk mengejar impian mereka.
             </p>
             
             <div className="features-list">

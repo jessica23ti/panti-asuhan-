@@ -1,4 +1,5 @@
 import React from 'react';
+import img1 from '../assets/img/DSC01447.JPG';
 
 const Highlight = () => {
   return (
@@ -12,7 +13,7 @@ const Highlight = () => {
             </div>
             <h2 className="hl-title">Berbagi Makanan Bergizi Untuk Anak Yatim & Dhuafa</h2>
             <p className="hl-desc">
-              Kontribusi kecil Anda berdampak besar. Bantu kami menyediakan makanan bergizi bagi anak-anak di panti asuhan. Bersama, kita pastikan mereka tumbuh sehat dan kuat.
+              Kontribusi kecil Anda berdampak besar. Bantu kami menyediakan makanan bergizi bagi anak-anak di Panti Asuhan Amanah. Bersama, kita pastikan mereka tumbuh sehat dan kuat.
             </p>
             
             <div className="progress-wrap" style={{ marginBottom: '2rem' }}>
@@ -30,7 +31,7 @@ const Highlight = () => {
           
           <div className="hl-image-wrapper">
             <img 
-              src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=800&auto=format&fit=crop" 
+              src={img1} 
               alt="Kids sharing food" 
               className="hl-image"
             />

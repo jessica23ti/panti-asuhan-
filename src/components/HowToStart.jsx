@@ -16,7 +16,7 @@ const HowToStart = () => {
           <div className="step-item">
             <i className="fa-solid fa-hand-holding-heart step-icon"></i>
             <h4>JADI RELAWAN</h4>
-            <p>Luangkan waktu dan tenaga Anda untuk membantu kegiatan di panti asuhan.</p>
+            <p>Luangkan waktu dan tenaga Anda untuk membantu kegiatan di Panti Asuhan Amanah.</p>
           </div>
           <div className="step-item">
             <i className="fa-regular fa-face-smile step-icon"></i>

@@ -26,7 +26,7 @@ const Donation = () => {
               <div className="bank-details">
                 <p className="bank-name">Bank Syariah Indonesia</p>
                 <h4 className="acc-number">711 222 3334</h4>
-                <p className="acc-name">a.n. Yayasan Panti Asuhan</p>
+                <p className="acc-name">a.n. Panti Asuhan Amanah</p>
               </div>
               <button 
                 className="copy-btn" 
@@ -42,7 +42,7 @@ const Donation = () => {
               <div className="bank-details">
                 <p className="bank-name">Bank Central Asia</p>
                 <h4 className="acc-number">098 765 4321</h4>
-                <p className="acc-name">a.n. Yayasan Panti Asuhan</p>
+                <p className="acc-name">a.n. Panti Asuhan Amanah</p>
               </div>
               <button 
                 className="copy-btn" 
