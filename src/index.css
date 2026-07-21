@@ -775,6 +775,10 @@ img {
     gap: 1rem;
   }
 
+  .map-container iframe {
+    height: 300px;
+  }
+
   .nl-form {
     display: block !important;
     background: transparent !important;
