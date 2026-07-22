@@ -808,3 +808,51 @@ img {
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 480px) {
+  .hero-title { font-size: 2rem; }
+  .section-title { font-size: 1.75rem; }
+  .hl-title { font-size: 1.5rem; }
+  .hl-price { font-size: 2rem; }
+  
+  .hero-stats-box { 
+    flex-direction: column; 
+    text-align: center; 
+    gap: 1.5rem; 
+  }
+  
+  .hero-card-main {
+    width: 100%;
+  }
+  
+  .hero-card-overlap { 
+    width: 150px; 
+    bottom: -15px;
+    padding: 0.5rem;
+  }
+  .hero-card-overlap img { 
+    height: 90px; 
+    margin-bottom: 0.5rem;
+  }
+  .hero-card-overlap h5 {
+    font-size: 0.8rem;
+  }
+  
+  .partners-list { 
+    gap: 1rem; 
+    font-size: 1rem;
+  }
+  
+  .map-container iframe { 
+    height: 250px; 
+  }
+  
+  .btn { 
+    padding: 0.7rem 1.2rem; 
+    font-size: 0.9rem; 
+  }
+  
+  .about-grid, .faq-section .container {
+    gap: 2rem;
+  }
+}
